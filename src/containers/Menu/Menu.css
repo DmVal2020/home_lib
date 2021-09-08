@@ -1,0 +1,21 @@
+.Menu{
+    background: antiquewhite;
+}
+.Menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+.Menu ul li{
+    margin: 10px;
+}
+.Menu ul li a{
+    text-decoration: none;
+    color: chocolate;
+}
+.Menu ul li a.active{
+    color:crimson;
+}
