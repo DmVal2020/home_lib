@@ -11,7 +11,7 @@ class Libs extends Component{
             <div className={classes.Libs}>
                 <div>
                     <h1>Добро пожаловать в домашнюю библиотеку</h1>
-                    <Link to="/categories">
+                    <Link to="/category">
                     <button>Войти в библиотеку</button>
                     </Link>
                 </div>               

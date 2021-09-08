@@ -1,0 +1,27 @@
+.Categories{
+    display: flex;
+    justify-content: center;
+    background: aliceblue;
+    flex-grow: 1;
+}
+.Categoriesbs > div{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+}
+.Categories h1{
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: teal;
+}
+.Categories ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0 ;
+    padding: 0;
+}
+.Categories ul li{
+    margin: 10px 20px;
+}

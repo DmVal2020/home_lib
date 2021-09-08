@@ -1,0 +1,26 @@
+.Card{
+    display: flex;
+    border: 1px solid grey;
+    flex-direction: column;
+    width: 230px;
+    height: 270px;
+    padding: 15px;
+    text-align: center;
+    box-sizing: border-box;
+    background: bisque;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,.5);
+}
+.Card button{
+    border: 1px solid #bebebe;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+    width: 150px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: bold;
+    color: teal;
+    cursor: pointer;
+    outline: none;
+    margin: auto auto 0;
+}
