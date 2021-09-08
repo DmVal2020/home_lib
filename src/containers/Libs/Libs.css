@@ -1,3 +1,36 @@
 .Libs{
-    display: block;
+    display: flex;
+    justify-content: center;
+    background: aliceblue;
+    flex-grow: 1;
+}
+.Libs > div{
+    display: flex;
+    flex-direction: column;
+    padding: 150px 0;
+}
+.Libs h1{
+    font-size: 28px;
+    font-weight: bold;
+    color: teal;
+}
+.Libs a{
+     margin: auto;
+}
+.Libs a button{
+    border: 1px solid #bebebe;
+    border-radius: 50px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .5);
+   
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bold;
+    color: teal;
+    cursor: pointer;
+    outline: none;
+
+}
+.Libs a button:hover{
+    color: cornflowerblue;
 }
